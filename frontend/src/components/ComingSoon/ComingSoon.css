@@ -1,0 +1,21 @@
+/* src/components/ComingSoon.css */
+
+.coming-soon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Use 80% of the viewport height */
+    text-align: center;
+  }
+  
+  .coming-soon-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .coming-soon-container p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  

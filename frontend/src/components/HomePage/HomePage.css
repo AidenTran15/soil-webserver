@@ -1,0 +1,126 @@
+/* src/components/HomePage/HomePage.css */
+
+.main-content {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background for the whole page */
+}
+
+.welcome-section, .featured-products, .call-to-action {
+  margin-bottom: 40px;
+}
+
+.welcome-section {
+  text-align: center;
+  background: linear-gradient(135deg, #e6f4ea, #c1e1c5); /* Light green gradient background */
+  padding: 60px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  color: #004d40;
+}
+
+.welcome-section h2 {
+  font-size: 3rem;
+  color: #004d40;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif; /* Add a distinctive font */
+  letter-spacing: 1px; /* Slightly increase the letter spacing */
+}
+
+.welcome-section p {
+  font-size: 1.2rem; /* Decrease the font size here */
+  color: #004d40;
+  line-height: 1.6; /* Improve readability */
+  margin-bottom: 0; /* Remove any extra margin */
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product-item {
+  text-align: center;
+}
+
+.signup-link {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.specials-section .product-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.gardening-tips {
+  background-color: #f4f4f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.gardening-tips h3 {
+  color: #33691e;
+}
+
+.gardening-tips p {
+  text-align: left;
+  color: #666;
+  font-size: 16px;
+}
+
+.specials-section .product-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.specials-section h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.gardening-tips ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.gardening-tips li {
+  margin-bottom: 10px;
+}
+
+.call-to-action {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fff;
+  color: black;
+  margin: 2rem 0;
+}
+
+.call-to-action p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.signup-link {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  background-color: #00796b;
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.signup-link:hover {
+  background-color: #004d40;
+}

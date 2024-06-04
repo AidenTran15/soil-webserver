@@ -1,0 +1,124 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.profile-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.profile-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.profile-info {
+    font-size: 16px;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.info-label {
+    font-weight: bold;
+    color: #666;
+}
+
+.info-value {
+    color: #333;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px;
+  }
+  
+  .profile-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px; 
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .diet-plan-form {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .form-row {
+    margin-bottom: 10px; 
+  }
+  
+  .form-row label {
+    display: block; 
+  }
+  
+  .form-row input {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 10px; 
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .profile-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px; 
+  }
+  
+  .profile-action-button {
+    padding: 10px 20px;
+    margin: 0 10px; 
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .edit-button {
+    background-color: #007bff; 
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .delete-button {
+    background-color: #f44336; 
+  }
+  
+  .delete-button:hover {
+    background-color: #d32f2f; 
+  }
+  

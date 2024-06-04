@@ -1,0 +1,55 @@
+/* DietPlanProfile.css */
+.diet-plan-profile-container {
+    background: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    margin: 0 auto 20px; 
+    height: 100%; 
+    width: 115%; 
+  
+  }
+  
+  .diet-plan-profile-container form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+  }
+  
+  .diet-plan-profile-container .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .diet-plan-profile-container input {
+    padding: 10px;
+    border: 1px solid #ccc; /* Add a subtle border to inputs */
+  }
+  
+  .diet-plan-profile-container button {
+    grid-column: span 3;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .diet-plan-profile-container button:hover {
+    background-color: #0056b3; 
+  }
+  
+.diet-plan-profile-container input,
+.diet-plan-profile-container select {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Add additional select-specific styles if necessary */
+.diet-plan-profile-container select {
+  display: block; /* Ensures the select box behaves like the input elements */
+  width: 100%; /* Matches the width of input fields */
+}
+
+
