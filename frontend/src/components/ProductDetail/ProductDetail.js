@@ -17,6 +17,7 @@ const ProductDetail = () => {
         console.error('Error fetching product:', error);
       }
     };
+    
 
     fetchProduct();
   }, [productId]);
