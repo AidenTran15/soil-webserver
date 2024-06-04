@@ -11,7 +11,7 @@ const ProductDetail = () => {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const response = await axios.get(`http://localhost:3001/products/${productId}`);
+        const response = await axios.get(`http://http://13.210.66.41/:3001/products/${productId}`);
         setProduct(response.data);
       } catch (error) {
         console.error('Error fetching product:', error);
