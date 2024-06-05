@@ -32,7 +32,7 @@ const Checkout = () => {
     }
     try {
       console.log('Checkout request data:', { userId: user.id });
-      const response = await axios.post('http://localhost:3001/checkout', {
+      const response = await axios.post('http://13.210.66.41:3001/checkout', {
         userId: user.id,
       });
       if (response.status === 201) {
